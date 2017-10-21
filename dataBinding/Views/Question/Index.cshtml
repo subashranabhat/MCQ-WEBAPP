@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form method="post" action="@Url.Action("Index", "Question")">
+  
+  <div class="questions">
+
+    <p> <b> 1) What is the height of Mt Everest ?</b>
+    </p>
+    <input type="radio" name="height" value="8848"> 8848
+    <input type="radio" name="height" value="8800"> 8800
+    <input type="radio" name="height" value="1999"> 1999
+    <input type="radio" name="height" value="7770"> 7770
+    <br/><br/>
+
+    <p> <b> 2) What is capital of India? </b>
+    </p>
+    <input type="radio" name="Capital" value="Delhi"> Delhi
+    <input type="radio" name="Capital" value="Mumbai"> Mumbai
+    <input type="radio" name="Capital" value="Maharastra"> 1999Maharastra
+    <input type="radio" name="Capital" value="New Delhi"> New Delhi
+    <br/><br/>
+
+    <p><b>3) The language spoken by the people by Pakistan is ?</b>
+    </p>
+    <input type="radio" name="Language" value="Hindi"> Hindi
+    <input type="radio" name="Language" value="Palauan"> Palauan
+    <input type="radio" name="Language" value="Nauruan"> Nauruan
+    <input type="radio" name="Language" value="Sindhi"> Sindhi
+    <br/><br/>
+
+  </div>
+
+  <input type="submit" value="Submit"/>
+</form>
+
+
+<script>
+  $(document).ready(function() {
+
+    $(label).click(function() {
+
+
+    });
+    
+  });
+  
+</script>
